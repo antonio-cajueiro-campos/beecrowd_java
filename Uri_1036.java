@@ -4,10 +4,9 @@ import java.util.Scanner;
 public class Uri_1036 {
 	public static void main(String[] args) throws IOException {
 		Scanner scan = new Scanner(System.in);
-		String[] line;
 		double x1, x2, a, b, c, delta;
 
-		line = scan.nextLine().split(" ");
+		String[] line = scan.nextLine().split(" ");
 
 		a = Double.parseDouble(line[0]);
 		b = Double.parseDouble(line[1]);
